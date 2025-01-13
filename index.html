@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <STyle> 
+        body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    }
+
+        .Color-money{
+            color: rgb(22, 255, 1);
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        header{
+            z-index: 1000;
+            position:fixed;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            width: 100%
+        }
+
+        section{
+            height: vh;
+        }
+
+        .margem-top{
+            margin-top: 7em;
+        }
+
+        .color{
+            color: rgb(255, 255, 255);
+        }
+      
+        .nav-link.active {
+        background-color: rgb(245, 229, 7) !important; 
+        color: white !important;
+        border-radius: 5px; 
+        }
+
+        .logo{
+            width: 180px;
+        }
+
+        .custom-toggler {
+     background-color: #ffffff; /* Cor de fundo desejada */
+    }
+    </STyle>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img  class="logo" src="./imagens/logo oficial.png" alt="">
+                <button type="button " class="navbar-toggler custom-toggler " data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active color" href="#carros">Carros</a>
+                        </li>
+                         </li class="nav-item" >
+                         <a  class="nav-link color" href="#sobre-a-loja">sobre-a-loja</a>
+                         </li>
+                        </li class="nav-item">
+                            <a class="nav-link color" href="#contato">Contato</a>
+                        </li>
+                   
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho"> 
+
+
+
+            <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/57e9bcb40e2163027004292fimagem-5.webp" alt="Imagem 1">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="https://image1.mobiauto.com.br/images/api/images/v1.0/73556014/transform/fl_progressive,f_webp,q_85,w_959" alt="Imagem 2">
+                    </div>
+                    <div data-bs-interval="32000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/file (1) (1).jpg" alt="Imagem 3">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button" aria-label="Previous">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button" aria-label="Next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+            
+        
+        
+        
+            <section id="carros">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6  col-lg-4 gy-5" >
+                            <div class="card">
+                               <div class="card-header">
+                                   <h4>COMPASS 2.0 DIESEL LIMITED 4X4 20/21 AUTOMATICO</h4>   
+                               </div>
+                               <img src="https://img.olx.com.br/images/20/203555004204719.webp" />
+                               <div class="card-body">
+                                <h5 class="card-title"> Modelo Jeep Compass Limited 2.0 4x4 Diesel 16v Aut.</h5>
+                                <H6 class="Color-money"> R$ 130.000</H6>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-secondary me-auto">Perguntar</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6  col-lg-4 gy-5" >
+                            <div class="card">
+                               <div class="card-header">
+                                   <h4>Strada 1.4 CS Flex Impecável Km Baixo - Completo! 2010</h4>   
+                               </div>
+                               <img src="https://img.olx.com.br/images/80/800465354652932.webp" />
+                               <div class="card-body">
+                                <h5 class="card-title">Entrada mínima de R$3.000 com parcelas 60x a partir de 345.</h5>
+                                <H6 class="Color-money"> R$20.000</H6>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-secondary me-auto">Perguntar</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6  col-lg-4 gy-5">
+                            <div class="card">
+                               <div class="card-header">
+                                   <h4>Fiat Strada 2023 1.4 fire flex endurance cs manual
+                                </h4>   
+                               </div>
+                               <img src="https://img.olx.com.br/images/93/934464717016059.webp" />
+                               <div class="card-body">
+                                <h5 class="card-title">FIAT STRADA 1.4 FIRE FLEX ENDURANCE CS MANUAL - 2022 / 2023
+                                    .</h5>
+                                <H6 class="Color-money"> R$50.000</H6>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-secondary me-auto">Perguntar</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12  col-md-6  col-lg-4 gy-5">
+                            <div class="card">
+                               <div class="card-header">
+                                   <h4>Mitsubishi L200 outdoor HPE 2.5 4x4
+                                </h4>   
+                               </div>
+                               <img src="https://img.olx.com.br/images/78/787538724232776.webp" />
+                               <div class="card-body">
+                                <h5 class="card-title">Caminhonete Mitsubishi L200 outdoor HPE 2.5 turbo Diesel Cabine dupla.</h5>
+                                <H6 class="Color-money"> R$ 49.000</H6>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-secondary me-auto">Perguntar</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                                
+                                
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6  col-lg-4 gy-5">
+                            <div class="card">
+                               <div class="card-header">
+                                   <h4>COMPASS 2.0 DIESEL LIMITED 4X4 20/21</h4>   
+                               </div>
+                               <img src="https://img.olx.com.br/images/27/278535243254772.webp" />
+                               <div class="card-body">
+                                <h5 class="card-title">Yamaha Lander 250 troco</h5>
+                                <H6 class="Color-money"> R$ 25.000</H6>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-secondary me-auto">Perguntar</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div .margem-top class="col-sm-12 col-md-6  col-lg-4 gy-5">
+                            <div class="card">
+                               <div class="card-header">
+                                   <h4>FORD BRONCO SPORT WILDTRAK 4X4</h4>   
+                               </div>
+                               <img src="https://img.olx.com.br/images/79/791401711152374.webp" />
+                               <div class="card-body">
+                                <h5 class="card-title">NARA MITSUBISHI  </h5>
+                                <H6 class="Color-money"> R$ 188.900</H6>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-secondary me-auto">Perguntar</a>
+                                    <a href="#" class="btn btn-success">Comprar</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            </section>
+            
+        
+    
+            <section class="margem-top" id="sobre-a-loja">
+                <div class="container">
+                    <h1 class="text-center">Sobre a loja</h1>
+                    <p class=" fs-4 fst-italic text-center lh-base fw-normal">Bem-vindo à AutoPrime Veículos!
+
+                        Na AutoPrime Veículos, nossa missão é transformar o processo de compra e venda de carros em uma experiência simples, segura e satisfatória. Oferecemos uma ampla variedade de veículos seminovos e usados, cuidadosamente selecionados para atender às suas necessidades e superar suas expectativas.
+                        
+                        Com anos de experiência no mercado, priorizamos a qualidade e a transparência em todas as etapas. Desde carros populares e econômicos até modelos premium, cada veículo passa por uma rigorosa inspeção antes de chegar ao showroom. Nosso compromisso é garantir que você dirija para casa com confiança e tranquilidade.
+            
+                        
+                        Seja para realizar o sonho do primeiro carro ou para renovar sua garagem, a AutoPrime Veículos está aqui para ajudá-lo a encontrar o veículo perfeito.
+                        
+                        AutoPrime Veículos – Qualidade e confiança ao seu alcance.</p>
+                </div>
+               
+            </section> 
+
+
+            <section class="margem-top" id="contato">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Contato</h2>
+                            <form>
+                                <label class="form-label" for="nome">Seu nome:</label>
+                                <input class="form-control" type="text" id="nome">
+            
+                                <label  for="email">Seu e-mail:</label>
+                                <input class="form-control" type="email" id="email">
+                                
+                                <label class="form-label" for="number">Seu numero de telefone:</label>
+                                <input class="form-control" type="number" id="number">
+            
+                                <label class="form-label" for="mensagem">Sua mensagem</label>
+                                <textarea name="mensagem" class="form-control" id="mensagem"></textarea>
+                                <input class="form-check-input" type="checkbox"  id="ceite-termos" >
+                                <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                               
+                            </form>
+                            <button class="btn btn-success">Eviar</button>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+    </section>
+            
+
+        </div>
+      
+     
+
+  
+    <footer  class="bg-dark text-white text-center py-4">
+        <div  class="container">
+          <p class="mb-0">© 2025 Valter - Todos os direitos reservados.</p>
+          <p>
+            <a href="#" class="text-white text-decoration-none me-3">Política de Privacidade</a>
+            <a href="#" class="text-white text-decoration-none">Termos de Uso</a>
+          </p>
+        </div>
+      </footer>
+   
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
